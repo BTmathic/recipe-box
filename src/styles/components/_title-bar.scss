@@ -1,0 +1,27 @@
+.title-bar {
+    background: $title-panel;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    font-size: 125%;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+    padding: 0.7rem 0;
+}
+
+.toggle {
+    margin-left: 1rem;
+    max-width: 80%;
+}
+
+.title {
+    word-break: break-all;
+}
+
+.edit-recipe {
+    background: lightGrey;
+    border: none;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    padding: 0.2rem 0.8rem;
+}

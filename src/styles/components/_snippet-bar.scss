@@ -1,0 +1,20 @@
+.snippet-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: $dropdown-indent;
+    padding: $soft-edge-size 0;
+}
+
+.snippet {
+    max-width: 80%;
+    word-break: break-all;
+}
+
+.delete-recipe {
+    background: $delete-button;
+    border: none;
+    border-radius: $soft-edge-size;
+    color: white;
+    margin-right: $dropdown-indent;
+    padding: $soft-edge-size;
+}

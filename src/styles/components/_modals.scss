@@ -1,0 +1,71 @@
+.ReactModalPortal > div {
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity 200ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.modal {
+    background: darken($title-panel, 40%);
+    border-radius: 1rem;
+    color: white;
+    max-width: 40rem;
+    outline: none;
+    padding: $s-size $l-size;
+}
+
+.modal input {
+    min-width: 40rem;
+}
+
+.modal button {
+    background: grey;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    
+    padding: 0.3rem 0.8rem;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+}
+
+.cancel-button {
+    margin-right: 0;
+}
+
+.submit-button {
+    margin-left: 0;
+}
+
+.modal__instructions {
+    margin: 0 0 $m-size 0;
+}
+
+.error {
+    color: red;
+    float: right;
+    hyphens: auto;
+    word-break: break-all;
+}
+
+form input, form textarea {
+    margin: 0.2rem;
+    width: 100%;
+}

@@ -1,0 +1,52 @@
+.instruction-list, .ingredient-list {
+    border-radius: $soft-edge-size;
+    color: white;
+    margin-left: $dropdown-indent;
+    margin-right: $dropdown-indent;
+    width: 46%;
+}
+
+.instruction-list {
+    background: $instruction-panel;
+}
+
+.ingredient-list {
+    background: $ingredient-panel;
+    list-style-type: circle;
+}
+
+.instruction-list h4, .ingredient-list h4 {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.ingredient, .instruction {
+    margin-left: -2rem;
+    margin-right: 1rem;
+    word-break: break-all;
+}
+
+.bullet-point {
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+    height: 0.4rem;
+    margin-bottom: 0.3rem;
+    margin-right: 0.7rem;
+    width: 0.4rem;
+}
+
+.instruction-count {
+    display: inline-block;
+}
+
+.edit-ingredients, .edit-instructions {
+    background: $add-step-button;
+    border: none;
+    border-radius: $soft-edge-size;
+    height: auto;
+    margin: 0 0 $soft-edge-size $soft-edge-size;
+    padding: $soft-edge-size;
+    width: 40%;
+    word-break: break-all;
+}
