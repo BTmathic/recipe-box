@@ -1,20 +1,17 @@
 import React from 'react';
 
-export default class SnippetBar extends React.Component {
+const SnippetBar = (props) => (
+    <div className='snippet-bar'>
+        <span className='snippet'>
+            {props.recipeSnippet}
+        </span>
+        <button
+            className='delete-recipe'
+            onClick={() => {props.handleDeleteRecipe(props.recipeName)}}
+        >
+            Delete Recipe
+        </button>
+    </div>
+);
 
-    render() {
-        return (
-            <div className='snippet-bar'>
-                <span className='snippet'>
-                    {this.props.recipeSnippet}
-                </span>
-                <button
-                    className='delete-recipe'
-                    onClick={() => {this.props.handleDeleteRecipe(this.props.recipeName)}}
-                >
-                    Delete Recipe
-                </button>
-            </div>
-        );
-    }
-}
+export default SnippetBar;
