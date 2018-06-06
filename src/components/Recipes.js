@@ -4,7 +4,7 @@ import Recipe from './Recipe';
 const Recipes = (props) => {
     if (props.recipeList.length > 0) {
         return (
-            <div className='recipe-box'>
+            <div id='recipe-box'>
                 {props.recipeList.map((recipe, index) => (
                     <Recipe
                         key={recipe}
@@ -24,7 +24,7 @@ const Recipes = (props) => {
         );
     } else {
         return (
-            <div className='recipe-box'>
+            <div id='recipe-box'>
                 Please add a recipe!
             </div>
         );

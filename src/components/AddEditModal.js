@@ -105,6 +105,7 @@ export default class AddEditModal extends React.Component {
             <Modal
                 isOpen={this.props.modalIsOpen}
                 onRequestClose={this.props.handleToggleModal}
+                shouldCloseOnOverlayClick={false}
                 contentLabel='Edit Recipe'
                 closeTimoutMS={200}
                 className='modal'

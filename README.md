@@ -1,14 +1,14 @@
-# recipe-box
+# Recipe Box
 
-<h1>Recipe Box</h1>
+Display a list of recipes (title, description, ingredients and instructions) for the user, preloaded with three recipes but fully customizable by any user. Data goes to local storage so the user can access changes they have made on their device.
 
-An interactive recipe box that stores recipes by name, short description, ingredients and instructions, into local storage for the user to use as a recipe book. Some preset recipes are given initially. Recipes can be added and deleted and opened/closed in display.
+### Front End
 
-Built with
-<ul>
-  <li>React</li>
-  <li>Webpack</li>
-  <li>Yarn</li>
-</ul>
+* React
+* React Modal
 
-To run, load index.html in the public folder.
+### Build Tools
+
+* Webpack
+* Yarn
+* Babel

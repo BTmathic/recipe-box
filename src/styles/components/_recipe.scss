@@ -9,3 +9,9 @@
 .recipe-contents button {
     margin-top: -0.5rem;
 }
+
+@media (max-width: 700px) {
+  .flex-panel {
+    flex-direction: column;
+  }
+}

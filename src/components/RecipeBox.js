@@ -164,7 +164,9 @@ export default class RecipeBox extends React.Component {
             }
         }
 
-        catch (e) {}
+        catch (e) {
+          console.log("Something went wrong...", e);
+        }
     }
 
     componentDidUpdate(prevProps, prevState) {
