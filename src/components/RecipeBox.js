@@ -189,12 +189,14 @@ export default class RecipeBox extends React.Component {
                     handleToggleModal={this.handleToggleModal}
                     recipeList={this.state.recipeList}
                 />
-                <button 
-                    className='add-recipe'
-                    onClick={() => {this.handleAddRecipe()}}
-                >
+                <div id='add-recipe-container'>
+                  <button 
+                      id='add-recipe'
+                      onClick={() => {this.handleAddRecipe()}}
+                  >
                     Add Recipe
-                </button>
+                  </button>
+                </div>
                 <AddEditModal
                     error={this.state.error}
                     handleCancelAddRecipe={this.handleCancelAddRecipe}

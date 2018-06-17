@@ -1,8 +1,14 @@
-.add-recipe {
+#add-recipe-container {
+  margin: 0 auto;
+  max-width: 100rem;
+  width: 90%;
+}
+
+#add-recipe {
     background: $add-recipe-button;
     border: none;
     border-radius: $soft-edge-size;
     color: white;
-    margin-left: $page-indent;
+    margin-bottom: 2rem;
     padding: 1rem;
 }
